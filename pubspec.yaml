@@ -1,0 +1,52 @@
+name: ultimate_furniture_app_ui_kit
+description: "A new Flutter project."
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_svg:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: LeagueSpartan
+      fonts:
+        - asset: assets/fonts/LeagueSpartan/LeagueSpartan-Black.ttf
+        - asset: assets/fonts/LeagueSpartan/LeagueSpartan-Bold.ttf
+        - asset: assets/fonts/LeagueSpartan/LeagueSpartan-Medium.ttf
+        - asset: assets/fonts/LeagueSpartan/LeagueSpartan-Regular.ttf
+        - asset: assets/fonts/LeagueSpartan/LeagueSpartan-SemiBold.ttf
+        - asset: assets/fonts/LeagueSpartan/LeagueSpartan-Thin.ttf
+          weight: 500
+
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.ttf
